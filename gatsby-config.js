@@ -1,10 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `Pitt Wu's Blog`,
+    position: `Frontend Developer`,
     description: `A blog about web development and other cool stuff with Pitt.`,
     author: `@Pitt Wu`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
