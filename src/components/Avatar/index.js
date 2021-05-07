@@ -1,9 +1,12 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
+import AvatarWrapper from './style';
 
 const Avatar = () => {
   return (
-    <StaticImage src="../../images/profile-photo.jpg" alt="Pitt Wu Avatar" />
+    <AvatarWrapper>
+      <StaticImage src="../../images/profile-photo.jpg" alt="Pitt Wu Avatar" />
+    </AvatarWrapper>
   );
 };
 
