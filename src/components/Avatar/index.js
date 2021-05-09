@@ -1,6 +1,6 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import AvatarWrapper from './style';
+import { AvatarWrapper } from './style';
 
 const Avatar = () => {
   return (
