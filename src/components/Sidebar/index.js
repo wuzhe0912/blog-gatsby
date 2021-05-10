@@ -1,6 +1,8 @@
 import React from 'react';
 import Profile from '../Profile';
 import SocialLinks from '../SocialLinks';
+import MenuLinks from '../MenuLinks';
+
 import { SidebarWrapper } from './style';
 
 const Sidebar = () => {
@@ -8,6 +10,7 @@ const Sidebar = () => {
     <SidebarWrapper>
       <Profile />
       <SocialLinks />
+      <MenuLinks />
     </SidebarWrapper>
   );
 };

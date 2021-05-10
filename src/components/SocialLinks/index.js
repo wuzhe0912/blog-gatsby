@@ -1,7 +1,6 @@
 import React from 'react';
 import Icons from './Icons';
 import Links from './Links';
-
 import {
   SocialLinksWrapper,
   SocialLinksList,
