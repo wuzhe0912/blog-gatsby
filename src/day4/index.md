@@ -1,4 +1,4 @@
-# Day 3 - MongoDB basic operations - edit, delete
+# Day 4 - MongoDB basic operations - edit, delete
 
 ## edit document
 
